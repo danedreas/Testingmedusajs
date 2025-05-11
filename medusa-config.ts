@@ -1,10 +1,11 @@
-import { loadEnv, defineConfig } from '@medusajs/framework/utils'
+import { defineConfig } from '@medusajs/framework/utils' // Remove loadEnv from import
 
-loadEnv(process.env.NODE_ENV || 'development', process.cwd())
+// Remove the loadEnv call:
+// loadEnv(process.env.NODE_ENV || 'development', process.cwd())
 
 module.exports = defineConfig({
   projectConfig: {
-    databaseUrl: process.env.DATABASE_URL,
+    databaseUrl: process.env.DATABASE_URL, // This is correct
     http: {
       storeCors: process.env.STORE_CORS!,
       adminCors: process.env.ADMIN_CORS!,
