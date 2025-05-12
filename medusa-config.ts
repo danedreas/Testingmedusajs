@@ -14,7 +14,7 @@ module.exports = defineConfig({
   plugins: [
     {
       resolve: "@medusajs/admin",
-      options: {}, // Keep empty options object
+      options: {},
     },
   ],
 });
