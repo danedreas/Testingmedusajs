@@ -1,4 +1,4 @@
-Import { defineConfig } from '@medusajs/framework/utils'
+import { defineConfig } from '@medusajs/framework/utils'
 
 // ... removed loadEnv comments ...
 
