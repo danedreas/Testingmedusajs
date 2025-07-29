@@ -29,7 +29,7 @@
     "@medusajs/medusa": "2.7.1",
     "@medusajs/admin": "^7.0.0",
     "@mikro-orm/core": "6.4.3",
-    "@mikro-orm/knex": "6.4.3",
+    "@mikro-orm/knex": "6.4.16",
     "@mikro-orm/migrations": "6.4.3",
     "@mikro-orm/postgresql": "6.4.3",
     "awilix": "^8.0.1",
